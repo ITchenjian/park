@@ -1,0 +1,102 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-29 16:18:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-18 16:06:54
+*/
+.el-popper[x-placement^=bottom]{
+	margin-top: 8px;
+}
+
+.el-upload__input[type='file']{
+    display: none;
+}
+
+.el-tree-node__expand-icon{
+	    color: #222;
+	    font-size: 14px;
+}
+
+.el-tree{
+	color: #222 !important;
+}
+
+.el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content{
+
+}
+.el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content .el-tree-node__label {
+    white-space: normal;
+    background: #1bc3b4;
+}
+
+.el-tree-node__children .el-tree-node.is-current .tree-label{
+	white-space: normal;
+    background: #1bc3b4;
+}
+
+
+/* modal */
+.v-modal{
+	opacity: 0;
+}
+.el-dialog{
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.el-dialog__header {
+    background: #1bc3b4;
+}
+
+.el-dialog__body {
+    padding: 30px 20px 0;
+    max-height: 540px;
+    overflow: auto;
+}
+.el-dialog__title{
+	font-size:16px;
+	color:#fff;
+}
+
+/* input、select、button*/
+.el-form-item__label{
+	line-height: 34px;
+}
+.el-input__inner{
+    border-radius: 0;
+    height: 34px;
+    line-height: 34px;
+}
+
+.el-form-item{
+	    margin-bottom: 18px;
+}
+
+.el-button{
+	border-radius: 0;
+}
+
+.el-button--primary:focus, .el-button--primary:hover,.el-button--primary {
+    color: #fff;
+    background-color: #1bc3b4;
+    border-color: #1bc3b4;
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+	max-width: 196px;
+}
+/* DateTimePicker */
+
+.el-picker-panel{
+	background: ;
+	border: 1px solid #2a9dec;
+}
+
+
+.vl-notify{
+	z-index: 3000;
+}
+
+.fontcolor{
+	color: #299ceb;
+}

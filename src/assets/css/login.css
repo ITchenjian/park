@@ -1,0 +1,120 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-11 09:13:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-10 09:48:32
+*/
+
+/*cloud*/
+
+/* body {
+	height: 100%;
+	background-color: #1c77ac;
+	background-image: url(../images/loginbg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;
+} */
+
+.loginbody {
+	/* background: url(../images/loginbg.png) no-repeat center center; */
+	background: url(../images/loginbg.jpg) no-repeat center center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	/* position: absolute; */
+	/* top: 47px; */
+}
+
+.systemlogo {
+	background: url(../images/loginlogo.png) no-repeat center;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.loginbox {
+	width: 560px;
+	/* height: 336px; */
+	/* background: url(../images/loginbg.png) no-repeat center center; */
+	background:#fff;
+	margin: 220px auto 0;
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 6px;
+}
+
+/* .loginbox .loginimg{
+	width: 33%;
+	height:20px;
+} */
+.loginbox .input{
+	/* width:67%; */
+	padding:50px 100px 65px 100px;
+	box-sizing:border-box;
+
+}
+
+
+.input ul .logins{
+	padding:6px 2px 6px 46px;
+	border: 1px solid #ddd;
+	border-radius: 1px;
+	background: url(../images/username.png) no-repeat 14px center;
+	background-size: 20px 20px;
+}
+
+.input ul .logins input{
+	width:290px;
+	height:30px;
+	padding-left:10px;
+}
+.input ul .loginpsd{	
+	margin-bottom: 4px;
+	background: url(../images/psd.png) no-repeat 14px center;
+	background-size: 20px 20px;
+}
+
+.reset .backpsd{
+	padding-left:20px;
+	height: 20px;
+	line-height: 20px;
+	/* background: url(../images/ask.png) no-repeat 0px 1px; */
+}
+.reset .register a{
+	color:#589ffe;
+}
+.form_tip{
+	height:20px;
+	line-height: 20px;
+	color:#d00;
+}
+
+.input ul li .btnlogin{
+	width:80%;
+	height: 44px;
+	background: #1bc3b4;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 0px;
+}
+
+.loginbm {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	/* background: url(../images/loginbg2.png) repeat-x; */
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #0b3a58;
+}
+
+.loginbm a {
+	font-weight: bold;
+	color: #0b3a58;
+}
+
+.loginbm a:hover {
+	color: #fff;
+}

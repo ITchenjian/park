@@ -1,0 +1,91 @@
+@charset "UTF-8";
+html,body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,input,button,img,form,p{
+    margin:0px;
+    padding:0px;
+}
+html,body {
+    color: #707070;
+    font-family:"Arial","Microsoft Yahei";
+    font-size: 14px;
+    height: 100%;
+}
+body{
+    background: #eff2f7;
+    /* background: #ccc; */
+}
+ol,ul,li{
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-style:normal;
+    font-size: 14px;
+    font-weight: normal;
+}
+s,i,strong,em{
+    font-style:normal;
+}
+input,button,img{
+    outline: none;
+    border:0;
+}
+textarea{
+    resize:none;
+}
+button{
+    cursor:pointer;
+}
+/* img{
+    width: 100%;
+    display:block;
+} */
+a{
+    outline:none;
+    text-decoration:none!important;
+    color:#333333;
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+    visibility: hidden;
+    height:0;
+}
+.clearfix{
+    zoom:1;
+}
+
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+
+.dn{
+    display: none;
+}
+/*版心 提取 */
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.BMapLabel{
+    max-width: 1000px;
+}
+/* .BMap_Marker{ */
+    /* position: absolute;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer; */
+   /*  background: url("http://api.map.baidu.com/lbsapi/createmap/images/icon.png")!important;
+    background-position:0px -21px !important;  */
+    /* width: 20px;
+    height: 25px;
+    left: 496px;
+    top: 99px;
+    z-index: -4509754; */
+/* } */
+    

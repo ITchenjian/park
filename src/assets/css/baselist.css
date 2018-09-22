@@ -1,0 +1,239 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-02 18:27:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-18 18:23:34
+*/
+
+html,body{
+	height:100%;
+}
+
+/* base */
+.form-control[readonly]{
+	cursor :default;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+label {
+    font-weight: 100;
+    color: #222;
+}
+
+.boxbgcolor{
+	background: #fff;
+}
+
+/* btn */
+.btn-primary:hover,.btn:focus, .btn:active:focus,.btn{
+	border-radius: 0px;
+	padding: 6px 20px;
+	border:1px solid #1bc3b4;
+	color: #1bc3b4;
+}
+.btn-primary:hover,.btn:focus, .btn:active:focus,.btn-primary{
+	color: #fff;
+    background-color: #1bc3b4;
+    border-color: #1bc3b4;
+}
+
+/* .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+	padding:12px 8px;
+} */
+
+.moresearch .well{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.margin-right{
+	margin-right: 16px;
+};
+/* end */
+
+.form-group {
+    margin-bottom: 2px;
+}
+
+.searchbox{
+	padding:20px 16px 38px;
+}
+.searchbox .form-group{
+	margin-right:20px;
+}
+.form-control, .searchbox .form-group .form-control,.searchbox .well .form-control{
+	/* border:none; */
+	/* border-bottom:1px solid #ccc; */
+	border-radius: 0;
+}
+.searchbox .form-group label{
+	margin-right:10px;
+	/* color:#1c1c1c; */
+	font-weight:100;
+}
+
+.list{
+	padding:0 16px 40px;
+}
+.list .table th,.list .table td{
+	text-align:center;
+	font-size:14px;
+	vertical-align: middle;
+}
+.list .table thead td{
+	color: #222;
+}
+.table tbody tr td>a>span {
+    color: #1bc3b4;
+}
+
+.table tbody tr:hover{
+	background: #eee;
+}
+
+.fontgay {
+    color: #8e8d8d !important;
+}
+.pagbox{
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+	background: #fff;
+}
+
+
+
+/* 其他 */
+.boxbgcolor{
+	background: #fff;
+	/* height: 100%; */
+}
+.form_tip {
+    height: 16px;
+    line-height: 16px;
+}
+
+
+.nav-tabs{
+	background: #2a9dec;
+	height:45px;
+	border:0;
+}
+.nav-tabs li.active a,.nav-tabs li.active a:hover{
+	display: inline-block;
+	color:#1bc3b4;
+	font-size: 14px;
+	border-radius: 0;
+	border:0;
+	margin-top:2px;
+	height:43px;
+	line-height:48px;
+	padding: 0 20px;
+}
+
+.nav-tabs li a{
+	display: inline-block;
+	color:#fff;
+	font-size: 14px;
+	border-radius: 0;
+	border:0;
+	margin-top:2px;
+	height:43px;
+	line-height:48px;
+	padding: 0 18px;
+}
+
+.tab-content{
+	padding:30px 40px;
+
+}
+
+.marginbox {
+    height: 16px;
+}
+
+
+/* 体验馆 */
+canvas{
+	outline: none;
+}
+
+.dataitems .title div{
+	color:#1bc3b4;
+}
+
+/* .dataitems .conitems div{
+	width: 49%;
+	height:300px;
+	background: pink;
+} */
+
+
+.showBig{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -10;
+	background: #fff;
+
+
+}
+.btnClose{
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	right:0;
+	width:30px;
+	height:30px;
+}
+.btnClose:hover{
+	background: #8abdea;
+	color:#000;
+}
+
+.btnOpen{
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	right:0;
+	width:30px;
+	height:30px;
+}
+.btnOpen:hover{
+	background: #8abdea;
+	color:#000;
+}
+
+.marginLeftRigth{
+	margin-left:16px;
+	margin-right:16px;
+}
+
+.fontblack{
+	color:#222;
+};
+
+
+
+
+/* 传感器tag */
+.m-left{
+	width: 45%;
+	font-size: 15px;
+	color:#222;
+}
+.m-left ul {
+	margin-bottom: 10px;
+}
+.m-left ul li{
+	padding: 4px;
+}
+.m-right{
+	width: 52%;
+	height:340px;
+	background: pink;
+}
